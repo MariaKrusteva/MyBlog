@@ -1,0 +1,50 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/candy.jpg') no-repeat center center fixed;
+}
+
+.lqlq {
+    margin: 40px;
+    text-align: center;
+}
+
+.me {
+    border-radius: 25px;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutme {
+    text-align: center;
+    font-style: oblique;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+
+
+}
+
+.dog {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poem {
+    text-align: center;
+    border: 2px solid black;
+    /*margin: 2px 2px 2px 2px;*/
+    padding: 10px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: black;
+}

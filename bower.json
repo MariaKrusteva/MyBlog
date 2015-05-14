@@ -1,0 +1,21 @@
+{
+  "name": "MyBlog",
+  "version": "0.0.0",
+  "authors": [
+    "MariaKrusteva <mimito_68@abv.bg>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4",
+    "handlebars": "~3.0.3"
+  }
+}
