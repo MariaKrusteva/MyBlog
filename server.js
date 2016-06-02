@@ -39,6 +39,9 @@ app.get("/", function (req, res) {
 })
 
 app.get("/poems",mongoController.listPoems);
+app.get("/resipes", mongoController.listResipes);
+app.post("/poems", mongoController.createPoem);
+app.post("/resipes", mongoController.createResipe);
 
 var server = app.listen(3000, function () {
 

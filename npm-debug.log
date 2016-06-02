@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'passpoport' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 warn package.json MyBlog@1.0.0 No description
+5 warn package.json MyBlog@1.0.0 No repository field.
+6 warn package.json MyBlog@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'passpoport', null ]
+9 verbose cache add name=undefined spec="passpoport" args=["passpoport",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'passpoport',
+10 verbose parsed url   path: 'passpoport',
+10 verbose parsed url   href: 'passpoport' }
+11 silly lockFile 0a1fb15a-passpoport passpoport
+12 verbose lock passpoport /home/mimi/.npm/0a1fb15a-passpoport.lock
+13 silly lockFile 0a1fb15a-passpoport passpoport
+14 silly lockFile 0a1fb15a-passpoport passpoport
+15 verbose addNamed [ 'passpoport', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile b194598a-passpoport passpoport@
+18 verbose lock passpoport@ /home/mimi/.npm/b194598a-passpoport.lock
+19 silly addNameRange { name: 'passpoport', range: '*', hasData: false }
+20 verbose request where is /passpoport
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id fd4892f3e50f6bbf
+23 verbose url raw /passpoport
+24 verbose url resolving [ 'https://registry.npmjs.org/', './passpoport' ]
+25 verbose url resolved https://registry.npmjs.org/passpoport
+26 verbose request where is https://registry.npmjs.org/passpoport
+27 info trying registry request attempt 1 at 11:50:57
+28 http GET https://registry.npmjs.org/passpoport
+29 http 404 https://registry.npmjs.org/passpoport
+30 silly registry.get cb [ 404,
+30 silly registry.get   { 'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '2',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Wed, 17 Feb 2016 09:50:58 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1455702658.343474,VS0,VE186' } ]
+31 silly lockFile b194598a-passpoport passpoport@
+32 silly lockFile b194598a-passpoport passpoport@
+33 error 404 Not Found
+33 error 404
+33 error 404 'passpoport' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'MyBlog'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Linux 3.13.0-55-generic
+35 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "passpoport"
+36 error cwd /home/mimi/hackBGJS/MyBlog
+37 error node -v v0.10.36
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]
