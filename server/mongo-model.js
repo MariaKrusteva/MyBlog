@@ -3,7 +3,8 @@ var mongoose = require("mongoose"),
 
 module.exports.poem = mongoose.model("Poem", {
   "title": String,
-  "text": String
+  "text": String,
+  "comments": []
 });
 
 module.exports.resipe = mongoose.model("Resipe", {

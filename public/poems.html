@@ -56,8 +56,19 @@
         <div class="poem">
             <h2>{{title}}</h2>
             <div>{{text}}</div>
-        </div>
-        {{/each}}
+
+            <div class="comments">
+              {{#each comments}}
+                <p>{{author}}: {{text}}</p>
+              {{/each}}
+            </div>
+            <div class="addComment">
+              <input type="text" class="newCommentAuthor" placeholder="Your name">
+              <input type="text" class="newCommentText" placeholder="Add comment">
+              <button class="addNewComment" id={{_id}}>Add comment</button>
+            </div>
+          </div>
+          {{/each}}
       </div>
     </script>
 
